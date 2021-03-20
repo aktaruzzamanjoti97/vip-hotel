@@ -1,0 +1,61 @@
+.signup-form{
+    padding:2rem;
+}
+.signup-container{
+    border: 2px solid #868686;
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 1rem;
+    padding: 1rem
+}
+.signup-container h2{
+    text-align: center;
+}
+.form input{
+
+    margin-bottom: 2rem;
+    width: 350px;
+}
+.form input:focus{
+    outline: none;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+}
+.form label{
+    margin-bottom: 0;
+}
+.create-account-btn{
+    background: tomato;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: .5rem 2rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.alreadyHaveAnAccount h5{
+    margin-right: 1rem;
+}
+.alreadyHaveAnAccount h6{
+    background: none;
+    color: tomato;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.auto-signIn button{
+    margin-bottom: 1rem;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: .5rem 3rem;
+}
+.submit{
+    background: tomato;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}

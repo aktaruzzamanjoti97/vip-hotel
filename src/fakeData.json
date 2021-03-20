@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "ticketName": "One Time Ticket",
+    "price": "100",
+    "image": "https://i.ibb.co/7KVhcxC/Group-33142.png"
+  }, {
+    "id": 2,
+    "ticketName": "One day pass",
+    "price": "500",
+    "image": "https://i.ibb.co/CHXBV09/Group-33143.png"
+  }, {
+    "id": 3,
+    "ticketName": "Monthly pass",
+    "price": "1500",
+    "image": "https://i.ibb.co/R34YhN0/Group-33144.png"
+  }, {
+    "id": 4,
+    "ticketName": "Annual pass",
+    "price": "9000",
+    "image": "https://i.ibb.co/C6fF5p8/Group-33145.png"
+  }]

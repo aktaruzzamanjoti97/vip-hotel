@@ -1,21 +1,28 @@
-import React from "react";
-import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import React, { useContext } from "react";
+import { Button, Nav, Navbar } from "react-bootstrap";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { UserContext } from "../../App";
+import logo from '../../images/assests-img/Group 33141.png'
 
 const Header = () => {
+  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+
   return (
     <div>
-      <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+      
+      <Navbar bg="dark-light">
+        <img style={{width: '80px'}} src={logo} alt=""/>
+        <Navbar.Brand href="#home"></Navbar.Brand>
+        <Nav className="mr-auto d-flex">
+          <Nav.Link style={{fontWeight: '1000'}} as={Link} to="/home">Home</Nav.Link>
+          <Nav.Link style={{fontWeight: '1000'}} as={Link} to="/booking">Booking</Nav.Link>
+          
+          <Nav.Link style={{fontWeight: '1000'}} as={Link} to="/destination">Destination</Nav.Link>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-primary">Search</Button>
-        </Form>
+        { loggedInUser ? loggedInUser.email : <Button as={Link} to="" variant="outline-primary">Log in</Button>}
       </Navbar>
+      
+      
     </div>
   );
 };
