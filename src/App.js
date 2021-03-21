@@ -8,7 +8,6 @@ import Login from "./components/Login/Login";
 import Booking from "./components/Booking/Booking";
 import { createContext, useState } from "react";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-import Destination from "./components/Destination/Destination";
 
 export const UserContext = createContext();
 
@@ -33,10 +32,6 @@ function App() {
 
           <PrivateRoute path="/booking/:ticketId">
             <Booking />
-          </PrivateRoute>
-
-          <PrivateRoute path="/destination/:showId">
-            <Destination />
           </PrivateRoute>
 
           <Route exact path="/">

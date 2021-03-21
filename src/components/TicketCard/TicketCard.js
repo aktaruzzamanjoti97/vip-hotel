@@ -14,7 +14,7 @@ const TicketCard = (props) => {
 
     return (
         <div className="col-md-3 card-style">
-            <div style={bgStyle} className="card-box m-4 p-2 text-center text-white">
+            <div style={bgStyle} className="card-box m-4 p-1 text-center text-white">
                 <div style={{height: '170px'}}>
                     <h2>{ticketName}</h2>
                    <div>

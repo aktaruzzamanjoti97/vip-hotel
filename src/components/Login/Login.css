@@ -1,12 +1,32 @@
 .signup-form{
     padding:2rem;
 }
+.form-container-style{
+    width: 480px;
+    border: 1px solid red;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.form-color-style{
+    margin: 20px;
+    padding-top: 20px;
+    width: 480px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+   padding-bottom: 20px;
+}
 .signup-container{
-    border: 2px solid #868686;
+    /* border: 2px solid #868686; */
+    background-image: url('../../images/../images/assests-img/BangladeshRailway.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0 auto;
-    width: 750px;
+    /* width: 750px; */
     margin-top: 1rem;
-    padding: 1rem
+    padding: 1rem;
+    
 }
 .signup-container h2{
     text-align: center;
