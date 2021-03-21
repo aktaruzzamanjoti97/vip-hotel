@@ -184,7 +184,7 @@ const Login = () => {
 
     return (
        
-      <Container style={{height: "1000px"}}>
+      <Container>
           <div className="signup-container">
                <div className="d-flex justify-content-center">
                <div className="form-color-style">
