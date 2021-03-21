@@ -16,9 +16,9 @@ const TicketCard = (props) => {
         <div className="col-md-3 card-style">
             <div style={bgStyle} className="card-box m-4 p-1 text-center text-white">
                 <div style={{height: '170px'}}>
-                    <h2>{ticketName}</h2>
+                    <h2 className="pt-4">{ticketName}</h2>
                    <div>
-                        <Button className="mt-4" as={Link} to={`/booking/${id}`} variant="success">Buy now</Button>
+                        <Button className="mt-4" as={Link} to={`/booking/${id}`} variant="warning">Buy now</Button>
                     </div>
                 </div>
                 <div>

@@ -8,6 +8,7 @@ import Login from "./components/Login/Login";
 import Booking from "./components/Booking/Booking";
 import { createContext, useState } from "react";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import Footer from "./components/Footer/Footer";
 
 export const UserContext = createContext();
 
@@ -38,6 +39,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </Router>
 
       </UserContext.Provider>
