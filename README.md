@@ -1,4 +1,4 @@
-A single page hotel booking website where user can book hotel.
+A single page ticket booking website where user can ticket.
 
 #live site link
 https://react-auth-assignment-80eb0.web.app/
