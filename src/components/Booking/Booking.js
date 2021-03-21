@@ -79,7 +79,7 @@ const Booking = () => {
         {!hasSearched && (
           <div className="showRoute">
             <h2
-              style={{ backgroundColor: "tomato" }}
+              style={{ backgroundColor: "tomato", color: "white"}}
               className="text-center ml-3 mb-5 p-2"
             >
               {from} To {to}
