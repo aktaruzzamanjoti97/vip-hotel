@@ -80,7 +80,7 @@ const Booking = () => {
           <div className="showRoute">
             <h2
               style={{ backgroundColor: "tomato" }}
-              className="text-center ml-3 mb-5"
+              className="text-center ml-3 mb-5 p-2"
             >
               {from} To {to}
             </h2>
